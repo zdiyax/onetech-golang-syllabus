@@ -1,1 +1,0 @@
-# onetech-golang-syllabus
