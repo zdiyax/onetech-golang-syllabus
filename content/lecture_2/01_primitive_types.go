@@ -23,35 +23,33 @@ var (
 	ii interface{}
 )
 
-//todo: этот файл будет обновляться в субботу
 func main() {
 	//format your code using this shortcut
 	//Ctrl + Alt + L
 	// Cmd + Alt + L
-	//
-	//i32 = 1<<31 - 1
-	//ui32 = 1<<32 - 1
-	//
-	//var array = []int{5, 2, 2, 4}
-	//
-	//fmt.Printf("this is my integer: %v, %v, %v", array, 123, 123)
-	//
-	//fmt.Println("this is my unsigned int:", ui32)
+
+	i32 = 1<<31 - 1
+	ui32 = 1<<32 - 1
+
+	var array = []int{5, 2, 2, 4}
+
+	fmt.Printf("this is my integer array : %v", array)
+	fmt.Println("this is my unsigned int:", ui32)
 
 	//slice
-	//var runes []rune
+	var runes []rune
 
-	//for i := 0; i < 100; i++ {
-	//	runes = append(runes, 's')
-	//}
-	//
-	//s := "Almas"
-	//
-	//fmt.Println([]rune(s))
-	//
-	//var arr1 = []int{1, 3, -31, 5, 0}
-	//
-	//fmt.Println("initial capacity is : ", cap(arr1))
+	for i := 0; i < 100; i++ {
+		runes = append(runes, 's')
+	}
+
+	s := "Almas"
+
+	fmt.Println([]rune(s))
+
+	var arr1 = []int{1, 3, -31, 5, 0}
+
+	fmt.Println("initial capacity is : ", cap(arr1))
 
 	i := 0
 	cap0 := cap(arr1)
@@ -70,7 +68,6 @@ func main() {
 
 	jar := 1233
 
-	fmt.Printf("jar is: %1000v", jar)
-
 	//Ctrl + Space (Пробел) - предложение аргументов, функций, пакетов
+	fmt.Printf("jar is: %1000v", jar)
 }
