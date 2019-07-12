@@ -37,7 +37,6 @@ func main() {
 	// Shift + F6 - реформаттинг переменных, структур, функций глобальноx
 
 	fmt.Println(car1)
-
 }
 
 type Car struct {
